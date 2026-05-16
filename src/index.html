@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Copilot RCE Analysis</title>
+    <meta name="description" content="A comprehensive analysis of the GitHub Copilot Prompt Injection to RCE vulnerability in VSCode (CVE-2025-53773).">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <main id="app"></main>
+    
+    <!-- Load data modules sequentially -->
+    <script src="./lib/data/overview.js"></script>
+    <script src="./lib/data/attack_vectors.js"></script>
+    <script src="./lib/data/mitigation.js"></script>
+    <script src="./lib/data/red_vs_blue.js"></script>
+    
+    <!-- Load main application logic -->
+    <script src="./main.js"></script>
+</body>
+</html>

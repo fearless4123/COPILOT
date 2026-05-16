@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: copilot_rce_simulator
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    # Development sırasında canlı değişiklikleri görmek için volüm bağlama
+    volumes:
+      - ./src:/usr/share/nginx/html/src
+      - ./docs:/usr/share/nginx/html/docs
+      - ./src/index.html:/usr/share/nginx/html/index.html
