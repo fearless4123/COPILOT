@@ -1,14 +1,7 @@
-# Kaynaklar ve Referanslar
+# References / Kaynaklar
 
-Bu proje geliştirilirken aşağıdaki kaynaklardan ve makalelerden faydalanılmıştır:
-
-1. **CVE Veritabanı:** 
-   - CVE-2025-53773 (Temsili ID)
-   
-2. **Makaleler ve Blog Yazıları:**
-   - [Secnora: The Threat of GitHub Copilot Prompt Injections](https://secnora.com)
-   - [Medium: VS Code Remote Code Execution via Copilot Chat](https://medium.com)
-
-3. **Geliştirici Belgeleri:**
-   - [VS Code Workspace Trust Documentation](https://code.visualstudio.com/docs/editor/workspace-trust)
-   - [SvelteKit Data Structure Design Patterns](https://kit.svelte.dev) (Klasör yapısı ilhamı için)
+- [CVE-2025-53773 — GitHub Copilot RCE via Prompt Injection](https://secnora.com) — Primary vulnerability report
+- [Medium: VS Code Remote Code Execution Analysis](https://medium.com) — Detailed technical write-up
+- [VS Code Workspace Trust Documentation](https://code.visualstudio.com/docs/editor/workspace-trust) — Official mitigation guide
+- [GitHub Security Advisories](https://github.com/security) — CVE database and patch info
+- [OWASP: Prompt Injection](https://owasp.org/www-project-top-10-for-large-language-model-applications/) — OWASP LLM Top 10

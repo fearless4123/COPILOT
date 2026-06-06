@@ -1,14 +1,13 @@
 version: '3.8'
 
 services:
-  web:
+  app:
     build: .
-    container_name: copilot_rce_simulator
+    env_file: .env
     ports:
       - "8080:80"
-    restart: unless-stopped
-    # Development sırasında canlı değişiklikleri görmek için volüm bağlama
     volumes:
       - ./src:/usr/share/nginx/html/src
-      - ./docs:/usr/share/nginx/html/docs
       - ./src/index.html:/usr/share/nginx/html/index.html
+    # Uncomment if your app needs network access to a target
+    # network_mode: host

@@ -1,19 +1,30 @@
-# Environment variables
+# Environment / Ortam
 .env
+*.env.local
 
-# Node.js
+# Dependencies / Bağımlılıklar
 node_modules/
-npm-debug.log
-yarn-error.log
+__pycache__/
+*.pyc
+target/
+venv/
+.venv/
 
-# Mac
-.DS_Store
+# Build outputs / Derleme çıktıları
+dist/
+build/
+*.exe
+*.out
+*.o
 
-# Editor directories and files
-.vscode/
+# Reports (large) / Raporlar (büyük)
+reports/*.pcap
+reports/*.cap
+
+# IDE / Editör
 .idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+.vscode/settings.json
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
