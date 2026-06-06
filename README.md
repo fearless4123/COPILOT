@@ -5,7 +5,7 @@
 
   # GitHub Copilot Prompt Injection to RCE — VSCode Exploit Analysis
 
-  ![GitHub](https://img.shields.io/badge/GitHub-Private-red?style=flat-square&logo=github)
+  ![GitHub](https://img.shields.io/badge/GitHub-Public-brightgreen?style=flat-square&logo=github)
   ![Language](https://img.shields.io/badge/Language-JavaScript-blue?style=flat-square)
   ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square)
   ![Course](https://img.shields.io/badge/Course-BGT006-purple?style=flat-square)
@@ -54,6 +54,10 @@ This project analyzes the **GitHub Copilot Prompt Injection to RCE vulnerability
 Bu proje, Ağustos 2025'te keşfedilen **GitHub Copilot İstem Enjeksiyonu ile RCE zafiyetini (CVE-2025-53773)** analiz etmektedir. `README.md` dosyasında gizli istem enjeksiyonları bulunan kötü niyetli bir depo (repository) gönderen saldırganlar, VSCode Copilot eklentisini kandırarak yerel terminal komutlarını çalıştırdı ve kurbanın makinesinde tam uzaktan kod çalıştırma (RCE) elde etti.
 
 The project includes an **interactive live exploit simulation** that visually demonstrates the attack flow within a fake VS Code environment.
+
+### 🎬 Live Exploit Simulation Demo
+
+![Live Exploit Simulation](docs/assets/exploit-simulation.webp)
 
 ---
 
