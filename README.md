@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://istinye.edu.tr">
-    <img src="docs/assets/istinye-university-logo.webp" alt="Istinye University" width="180"/>
+    <img src="https://upload.wikimedia.org/wikipedia/tr/1/14/%C4%B0stinye_%C3%9Cniversitesi_logo.svg" alt="Istinye University" width="180"/>
   </a>
 
   # GitHub Copilot Prompt Injection to RCE — VSCode Exploit Analysis
