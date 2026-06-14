@@ -2,7 +2,7 @@
 # ROADMAP — GitHub Copilot İstem Enjeksiyonu ile RCE Analizi
 
 > Course / Ders: Penetration Testing (BGT006) · Istinye University
-> Instructor / Danışman: Keyvan Arasteh
+> Instructor / Danışman: Keyvan Arasteh 
 
 ---
 
